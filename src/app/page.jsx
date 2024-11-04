@@ -115,7 +115,7 @@ export default function Home() {
             <Link href="https://github.com/CodeByRizwan" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faGithub} className="text-3xl hover:text-gray-700 transition-colors duration-300" />
             </Link>
-            <Link href="/https://x.com/riz__z__" target="_blank" rel="noopener noreferrer">
+            <Link href="https://x.com/riz__z__" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faXTwitter} className="text-3xl hover:text-gray-700 transition-colors duration-300" />
             </Link>
             <Link href="https://www.linkedin.com/in/rizwan-rahman-83a985334/" target="_blank" rel="noopener noreferrer">
