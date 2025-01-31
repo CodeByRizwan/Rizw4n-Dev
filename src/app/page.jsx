@@ -43,7 +43,7 @@ export default function Home() {
           <p className="flex-grow lg:text-xl laptopmd:text-base ">Hi, I am Rizwan Rahman. I am a self-taught website developer.</p>
           <p className="flex-grow lg:text-xl laptopmd:text-base ">I am a hungry learner & open for any kind of projects and works. Contact for collaboration🤝📈</p>
           <p className="flex-grow lg:text-xl laptopmd:text-base ">I am skilled in HTML, CSS, JavaScript, and other frameworks and libraries of JavaScript. 💻</p>
-          {/* <p className="flex-grow lg:text-xl laptopmd:text-base ">If there is a requirement for any specific technology for your business, I am open to learn it and provide that specific service.</p> */}
+          <p className="flex-grow lg:text-xl laptopmd:text-base ">If there is a requirement for any specific technology for your business, I am open to learn it and provide that specific service.</p>
           <p className="flex-grow lg:text-xl laptopmd:text-base bg-yellow-200 py-1 px-3 text-blue-900 font-bold text-lg rounded-xl shadow-lg border border-yellow-500 lg:text-center lg:pt-4 laptopmd:pt-2">If you need any works done, Do contact. ✌🏻️</p>
         </motion.div>
 
