@@ -1,6 +1,7 @@
 "use client"
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin, faXTwitter } from '@fortawesome/free-brands-svg-icons';
@@ -16,12 +17,13 @@ export default function Home() {
     >
       {/* Animated Header */}
       <motion.div
-        className="row-span-1 sm:row-span-1 lg:row-span-1 flex justify-center items-center"
+        className="row-span-1 sm:row-span-1 lg:row-span-1 flex justify-center items-center flex-col gap-y-4"
         initial={{ y: -50, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 1, delay: 0.3 }}
       >
-        <h1 className="text-2xl sm:text-3xl lg:text-4xl">Rizw4n-Dev</h1>
+        <h1 className="text-2xl sm:text-3xl lg:text-4xl mt-8">Rizw4n-Dev</h1>
+        <Image src="/Me.jpg" alt="Me" width="100" height="100" className="rounded-full object-cover"></Image>
       </motion.div>
 
       {/* Main Content */}
@@ -39,9 +41,9 @@ export default function Home() {
           transition={{ duration: 1, delay: 0.7 }}
         >
           <p className="flex-grow lg:text-xl laptopmd:text-base ">Hi, I am Rizwan Rahman. I am a self-taught website developer.</p>
-          <p className="flex-grow lg:text-xl laptopmd:text-base ">I can help your business grow by developing website and automating tasks as per your requirements.📈</p>
+          <p className="flex-grow lg:text-xl laptopmd:text-base ">I am a hungry learner & open for any kind of projects and works. Contact for collaboration🤝📈</p>
           <p className="flex-grow lg:text-xl laptopmd:text-base ">I am skilled in HTML, CSS, JavaScript, and other frameworks and libraries of JavaScript. 💻</p>
-          <p className="flex-grow lg:text-xl laptopmd:text-base ">If there is a requirement for any specific technology for your business, I am open to learn it and provide that specific service.</p>
+          {/* <p className="flex-grow lg:text-xl laptopmd:text-base ">If there is a requirement for any specific technology for your business, I am open to learn it and provide that specific service.</p> */}
           <p className="flex-grow lg:text-xl laptopmd:text-base bg-yellow-200 py-1 px-3 text-blue-900 font-bold text-lg rounded-xl shadow-lg border border-yellow-500 lg:text-center lg:pt-4 laptopmd:pt-2">If you need any works done, Do contact. ✌🏻️</p>
         </motion.div>
 
@@ -77,8 +79,8 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-2 gap-4 w-full">
             <div className="laptopmd:flex laptopmd:justify-center laptopmd:items-center bg-white p-4 rounded-xl shadow-md hover:shadow-lg transition duration-300 transform hover:scale-105">
-              <Link href="https://cafe-non-functioning-site.vercel.app/ " target="_blank" rel="noopener noreferrer" className="h-full w-full flex justify-center items-center">
-                <p className="text-center text-gray-800 laptopmd:text-base lg:text-xl">Design focused for laptop screens</p>
+              <Link href="https://budger-tracker.vercel.app/" target="_blank" rel="noopener noreferrer" className="h-full w-full flex justify-center items-center">
+                <p className="text-center text-gray-800 laptopmd:text-base lg:text-xl">A budget tracker</p>
               </Link>
             </div>
             <div className="laptopmd:flex laptopmd:justify-center laptopmd:items-center bg-white p-4 rounded-xl shadow-md hover:shadow-lg transition duration-300 transform hover:scale-105">
